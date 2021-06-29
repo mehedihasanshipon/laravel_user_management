@@ -30,7 +30,7 @@ class ProductController extends Controller
     public function create(Request $request)
     {
         if ($request->user()->can('create-tasks')) {
-           dd("Yes");
+           dd("No");
         }
     }
 
